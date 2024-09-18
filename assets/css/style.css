@@ -4133,7 +4133,7 @@ textarea:-ms-input-placeholder {
 .event-single-page .speaker-col .single-speaker .speaker-thumbnail,
 .single-speaker-page .speaker-col .single-speaker .speaker-thumbnail {
   margin-bottom: 40px;
-  border-radius: 100%;
+  border-radius: 50%;
   position: relative;
   padding: 20px;
 }
@@ -4147,22 +4147,23 @@ textarea:-ms-input-placeholder {
   position: absolute;
   left: 0;
   top: 0;
-  border-radius: 100%;
+  border-radius: 50%;
 }
-
 .speaker-section-3 .speaker-col .single-speaker .speaker-thumbnail .speaker-img,
 .event-single-page .speaker-col .single-speaker .speaker-thumbnail .speaker-img,
 .single-speaker-page .speaker-col .single-speaker .speaker-thumbnail .speaker-img {
   border-radius: 100%;
   overflow: hidden;
   display: inline-block;
+  width: 300px;
+  height: 250px;
 }
 
 .speaker-section-3 .speaker-col .single-speaker:hover .speaker-thumbnail::after,
 .event-single-page .speaker-col .single-speaker:hover .speaker-thumbnail::after,
 .single-speaker-page .speaker-col .single-speaker:hover .speaker-thumbnail::after {
   border-style: dashed;
-  animation: spin-border 10s infinite linear;
+  animation: spin-border 30s infinite linear;
 }
 
 
