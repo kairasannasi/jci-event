@@ -2928,13 +2928,16 @@ textarea:-ms-input-placeholder {
 }
 
 .exvent-hero-section-05 .hero-conent-wrapper .main-title h1 {
-  font-size: 74px;
+  font-size: 54px;
   color: #ffffff;
   line-height: 90px;
   margin-bottom: 30px;
   font-weight: 700;
 }
-
+.exvent-hero-section-05 .hero-conent-wrapper .main-title h1 span {
+  font-size: 44px;
+  color: #c6baba;
+}
 .exvent-hero-section-05 .hero-conent-wrapper .hero-meta {
   margin-bottom: 40px;
 }
@@ -4147,23 +4150,20 @@ textarea:-ms-input-placeholder {
   position: absolute;
   left: 0;
   top: 0;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .speaker-section-3 .speaker-col .single-speaker .speaker-thumbnail .speaker-img,
 .event-single-page .speaker-col .single-speaker .speaker-thumbnail .speaker-img,
 .single-speaker-page .speaker-col .single-speaker .speaker-thumbnail .speaker-img {
-  border-radius: 100%;
   overflow: hidden;
   display: inline-block;
-  width: 300px;
-  height: 250px;
 }
+
 
 .speaker-section-3 .speaker-col .single-speaker:hover .speaker-thumbnail::after,
 .event-single-page .speaker-col .single-speaker:hover .speaker-thumbnail::after,
 .single-speaker-page .speaker-col .single-speaker:hover .speaker-thumbnail::after {
   border-style: dashed;
-  animation: spin-border 30s infinite linear;
 }
 
 
