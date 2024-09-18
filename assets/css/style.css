@@ -194,16 +194,16 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .header-logo a img {
   margin-top: 10px;
-  width: 110px !important;
-  height: 100px !important;
-  margin-bottom: -30px;
+  width: 130px !important;
+  height: 150px !important;
+  margin-bottom: -50px;
 }
 
 .header-search a img {
   margin-top: -30px;
-  width: 110px !important;
-  height: 100px !important;
-  margin-bottom: -30px;
+  width: 130px !important;
+  height: 150px !important;
+  margin-bottom: -50px;
 }
 
 @media only screen and (min-width: 1600px) {
