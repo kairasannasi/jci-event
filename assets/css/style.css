@@ -198,6 +198,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 150px !important;
   margin-bottom: -50px;
 }
+.header-menu .kushi a img {
+ margin-top: -30px;
+  height: 130px !important;
+  width: 230px !important;
+  margin-bottom: -30px;
+}
 
 .header-search a img {
   margin-top: -30px;
@@ -1080,6 +1086,10 @@ textarea:-ms-input-placeholder {
   overflow: hidden;
 }
 
+.btn-5 a:hover {
+  color: #fff;
+}
+
 .submit_btn::after,
 .btn-5::after {
   background: #fff;
@@ -1098,7 +1108,7 @@ textarea:-ms-input-placeholder {
 
 
 .submit_btn:hover::before,
-.btn-5:hover::before {
+.btn-5:hover::before{
   left: 120%;
   opacity: .5;
 }
