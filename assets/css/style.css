@@ -1170,8 +1170,8 @@ textarea:-ms-input-placeholder {
 
 .exvent-header-2.sticky .header-wrap,
 .exvent-header-2.sticky {
-  background-color: #150328;
-  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px 0px rgba(243, 240, 240, 0.07);
 }
 
 .exvent-header-2.sticky .header-menu .main-menu li a {
@@ -3403,8 +3403,9 @@ textarea:-ms-input-placeholder {
 /*  05 - About CSS
 /*----------------------------------------*/
 .about-section .about-thumb-wrap {
-  margin-right: -165px;
+  margin-right: -5px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .about-section .about-thumb-wrap img {
@@ -3969,6 +3970,11 @@ textarea:-ms-input-placeholder {
   overflow: hidden;
 }
 
+.speaker-section .speaker-link .single-speaker .speaker-thumb video{
+  width: 100%;
+  transition: .3s;
+  z-index: 0;
+}
 .speaker-section .speaker-link .single-speaker .speaker-thumb img {
   width: 100%;
   transition: .3s;
@@ -4223,6 +4229,15 @@ textarea:-ms-input-placeholder {
   font-size: 24px;
   color: #250449;
   transition: all 0.3s linear;
+}
+
+.speaker-section-3 .speaker-col .single-speaker .speaker-details .speaker-name-link .speaker-post {
+  background-color: red ;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
 }
 
 .speaker-section-3 .speaker-col .single-speaker:hover .speaker-details .speaker-name-link .speaker-name,
@@ -5277,7 +5292,11 @@ textarea:-ms-input-placeholder {
   position: relative;
   overflow: hidden;
 }
-
+.past-event-gallery-area .single-gallery img {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
 .past-event-gallery-area .single-gallery::before {
   content: '';
   position: absolute;
@@ -8481,8 +8500,10 @@ textarea:-ms-input-placeholder {
   display: inline-block;
 }
 
-.footer-section-3 .footer-widget-social .social-list li a {
-  color: #ffffff;
+.footer-section .footer-widget-social .social-list li p {
+  color:#fffff7;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .footer-section-3 .footer-widget-social .social-list li:nth-child(1) a {
